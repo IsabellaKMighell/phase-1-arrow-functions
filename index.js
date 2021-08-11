@@ -4,12 +4,8 @@ const divide = function() {
 }
 
 //arrow function
-const square = num => {
-    return num * num; 
-}
+const square = num => num ** 2;
 
 //arrow function two parameters
 
-const add = (num1, num2) => {
-    return num1 + num2;
-}
+const add = (num1, num2) => num1 + num2;
